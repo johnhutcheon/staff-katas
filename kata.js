@@ -13,7 +13,7 @@ findClosingParenthesis = (str, num) => {
   const lastBracketIndex = arr.findIndex(isClosedBracket);
 
   let countOpening = 0;
-  const newArr = [];
+  const newArr = []; //change
 
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === "(") {
